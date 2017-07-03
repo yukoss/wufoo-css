@@ -20,6 +20,20 @@ form.wufoo {
   padding: 0;
 }
 
+form li.leftHalf,
+form li.rightHalf {
+    width: 50% !important;
+}
+
+.wufoo li.rightHalf input.text {
+  float: right;
+}
+
+.wufoo li.buttons {
+  margin: 0;
+  padding: 0;
+}
+
 .wufoo li.focused {
   background-color: transparent;
 }
@@ -77,7 +91,7 @@ form.wufoo {
  
 .wufoo .submit {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 13px 30px;
   border: 0;
   border-radius: 2px;
   background-color: #f60;
@@ -85,4 +99,9 @@ form.wufoo {
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.wufoo .submit:hover {
+  background-color: #ff7f0b;
 }
