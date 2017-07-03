@@ -6,11 +6,17 @@
 }
  
 /* General */
-.wufoo form {
+.wufoo {
+  letter-spacing: normal;
+}
+
+form.wufoo {
   max-width: 750px;
+  padding-left: 1px;
 }
 
 .wufoo li {
+  margin-bottom: 25px;
   padding: 0;
 }
 
@@ -44,6 +50,10 @@
 .wufoo input.text {
   max-width: 360px;
 }
+
+.wufoo textarea.textarea {
+  resize: none;
+}
  
 .wufoo #header.info {
   display: none;
@@ -52,6 +62,7 @@
 .wufoo label.desc {
   display: inline-block;
   width: auto;
+  margin-bottom: 5px;
   padding: 0;
   font-weight: 400;
   font-size: 18px;
