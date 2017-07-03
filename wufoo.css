@@ -24,6 +24,11 @@ form.wufoo ul {
   padding: 0;
 }
 
+form li.leftHalf,
+form li.rightHalf {
+    width: 100% !important;
+}
+
 @media (min-width: 768px) {
   form li.leftHalf,
   form li.rightHalf {
@@ -40,11 +45,6 @@ form.wufoo ul {
   form li.rightHalf .desc {
     margin-left: 15px;
   }
-}
-
-form li.leftHalf,
-form li.rightHalf {
-    width: 100% !important;
 }
 
 .wufoo li.rightHalf input.text {
