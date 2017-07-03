@@ -52,8 +52,15 @@ form li.rightHalf {
 }
 
 .wufoo li.buttons {
-  margin: 50px 0 0;
+  margin: 40px 0 50px;
   padding: 0;
+}
+
+@media (min-width: 992px) {
+  .wufoo li.buttons {
+    margin: 50px 0 70px;
+    padding: 0;
+  }
 }
 
 .wufoo li.focused {
