@@ -6,12 +6,17 @@
 }
  
 /* General */
-.wufoo .focused {
+.wufoo li {
+  padding: 0;
+}
+
+.wufoo li.focused {
   background-color: none; 
 }
  
 .wufoo .field {
   border: 1px solid #b7b4ae;
+  box-sizing: border-box;
 }
  
 .wufoo input.text,
@@ -25,11 +30,12 @@
 }
  
 .wufoo label.desc {
+  font-weight: 400 18px/27px;
   color: #69645f;
-  font-family: Lato;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
+}
+
+.wufoo label.desc .req {
+  color: #a94442;
 }
  
 .wufoo .submit {
