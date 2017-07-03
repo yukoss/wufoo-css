@@ -15,7 +15,7 @@ form.wufoo {
   padding-left: 1px;
 }
 
-.wufoo form ul {
+form.wufoo ul {
   margin-top: 40px;
 }
 
@@ -42,7 +42,7 @@ form li.rightHalf {
   background-color: transparent;
 }
 
-.wufoo li.focused dev label,
+.wufoo li.focused div label,
 .wufoo li.focused label.desc {
   color: #69645f;
 }
