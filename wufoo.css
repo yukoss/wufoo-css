@@ -1,0 +1,45 @@
+/* Typography */
+.wufoo .field {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+/* General */
+.wufoo .focused {
+  background-color: none; 
+}
+
+.wufoo .field {
+  border: 1px solid #b7b4ae;
+}
+
+.wufoo input.text,
+.wufoo input.search,
+.wufoo textarea.textarea {
+  background: none;
+}
+
+.wufoo #header.info {
+  display: none;
+}
+
+.wufoo label.desc {
+  color: #69645f;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.wufoo .submit {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #f60;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
