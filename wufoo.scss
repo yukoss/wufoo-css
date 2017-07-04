@@ -22,19 +22,22 @@
     resize: none;
   }
 
-  .desc {
-    display: inline-block;
-    width: auto;
-    margin-bottom: 5px;
-    padding: 0;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    font-family: Lato;
-    color: #69645f;
+  label,
+  legend {
+    &.desc {
+      display: inline-block;
+      width: auto;
+      margin-bottom: 5px;
+      padding: 0;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      font-family: Lato;
+      color: #69645f;
 
-    .req {
-      color: #a94442 !important;
+      .req {
+        color: #a94442 !important;
+      }
     }
   }
 
@@ -131,6 +134,10 @@ input[type=checkbox] {
   + label {
     position: relative;
     padding-left: 35px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    color: #69645F;
     cursor: pointer;
     @media (min-width: 768px) {
       padding-left: 30px;
@@ -141,8 +148,8 @@ input[type=checkbox] {
       position: absolute;
       top: 2px;
       left: 0;
-      width: 20px;
-      height: 20px;
+      width: 15px;
+      height: 15px;
       border-radius: 2px;
       border: 2px solid #64695f;
       background-color: #fff;

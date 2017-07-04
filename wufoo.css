@@ -18,7 +18,8 @@
 .wufoo textarea.textarea {
   resize: none
 }
-.wufoo .desc {
+.wufoo label.desc,
+.wufoo legend.desc {
   display: inline-block;
   width: auto;
   margin-bottom: 5px;
@@ -29,7 +30,8 @@
   font-family: Lato;
   color: #69645f
 }
-.wufoo .desc .req {
+.wufoo label.desc .req,
+.wufoo legend.desc .req {
   color: #a94442!important
 }
 .wufoo .field {
@@ -113,6 +115,10 @@ input[type=checkbox] {
 input[type=checkbox] + label {
   position: relative;
   padding-left: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Lato,Arial,Helvetica,sans-serif;
+  color: #69645f;
   cursor: pointer
 }
 @media (min-width:768px) {
@@ -126,8 +132,8 @@ input[type=checkbox] + label:before {
   position: absolute;
   top: 2px;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 2px;
   border: 2px solid #64695f;
   background-color: #fff;
