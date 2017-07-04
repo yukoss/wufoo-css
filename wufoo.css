@@ -14,7 +14,7 @@
 .wufoo input.text {
   width: 100%
 }
-@media (min-width:720px) {
+@media (min-width:698px) {
   .wufoo input.text {
     max-width: 360px
   }
@@ -48,7 +48,7 @@
   max-width: 270px;
   margin-bottom: 15px
 }
-@media (min-width:720px) {
+@media (min-width:698px) {
   .wufoo fieldset legend.desc {
     max-width: 100%
   }
@@ -98,7 +98,7 @@
   width: 100%;
   margin-right: 0
 }
-@media (min-width:720px) {
+@media (min-width:698px) {
   .wufoo li.twoColumns div span {
     width: 48%
   }
@@ -115,7 +115,7 @@ form.wufoo li.leftHalf,
 form.wufoo li.rightHalf {
   width: 100%!important
 }
-@media (min-width:720px) {
+@media (min-width:698px) {
   form.wufoo li.leftHalf,
   form.wufoo li.rightHalf {
     width: 47%!important

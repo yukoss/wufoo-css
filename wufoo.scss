@@ -15,7 +15,7 @@
 
   input.text {
     width: 100%;
-    @media (min-width: 720px) {
+    @media (min-width: 698px) {
       max-width: 360px;
     }
   }
@@ -54,7 +54,7 @@
       &.desc {
         max-width: 270px;
         margin-bottom: 15px;
-        @media (min-width: 720px) {
+        @media (min-width: 698px) {
           max-width: 100%;
         }
       }
@@ -112,7 +112,7 @@
         span {
           width: 100%;
           margin-right: 0;
-          @media (min-width: 720px) {
+          @media (min-width: 698px) {
             width: 48%;
           }
         }
@@ -137,7 +137,7 @@
       &.leftHalf,
       &.rightHalf {
         width: 100% !important;
-        @media (min-width: 720px) {
+        @media (min-width: 698px) {
           width: 47% !important;
         }
         @media (min-width: 1200px) {
