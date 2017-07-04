@@ -34,8 +34,8 @@
 .wufoo legend.desc .req {
   color: #a94442!important
 }
-.wufoo label .choice,
-.wufoo legend .choice {
+.wufoo label.choice,
+.wufoo legend.choice {
   margin: 5px 0
 }
 .wufoo .field {
@@ -56,6 +56,7 @@
   margin-top: 40px
 }
 .wufoo li {
+  width: 100%;
   margin-bottom: 25px;
   padding: 0
 }
