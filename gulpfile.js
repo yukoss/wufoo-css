@@ -8,7 +8,7 @@ gulp.task('css', () => {
     .pipe(sass()
       .on('error', sass.logError))
     .pipe(autoprefixer())
-    .pipe(cleanCSS())
+    .pipe(cleanCSS({format: 'beautify'}))
     .pipe(gulp.dest('./'));
 });
 
