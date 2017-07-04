@@ -179,18 +179,6 @@ input[type=radio]:checked + label:before {
     padding-top: 0
   }
 }
-input[type=radio]:before {
+input[type=radio] + label:before {
   border-radius: 50%
-}
-input[type=radio]:checked + label:before {
-  content: "";
-  padding-top: 1px;
-  border-color: #f60;
-  background-color: #f60;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAfUlEQVQ4jeXQsQnCQBgF4HA72CQziJIFsoCoc9hlG0dyBV3AIhhstfkstDiOEy5aia/8ed87uKr6r2CG7lPc4OSZ/hsMV4S0FLDDPLnXCb5hk3tl/yqMaCN8LMEB56h4waoIRyMLDPK5Y1vyWbmRMvxmZBqORpY4YD0Z/14eHBvxRHakoFEAAAAASUVORK5CYII=)
-}
-@media (min-width:768px) {
-  input[type=radio]:checked + label:before {
-    padding-top: 0
-  }
 }
