@@ -108,12 +108,23 @@
         span {
           width: 100%;
           margin-right: 0;
+          @media (min-width: 720px) {
+            width: 48%;
+          }
         }
       }
     }
 
     span {
       color: #64695f;
+    }
+
+    &:hover {
+      .instruct {
+        top: -35px;
+        right: 0;
+        left: inherit;
+      }
     }
   }
 

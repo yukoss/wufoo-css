@@ -92,8 +92,18 @@
   width: 100%;
   margin-right: 0
 }
+@media (min-width:720px) {
+  .wufoo li.twoColumns div span {
+    width: 48%
+  }
+}
 .wufoo li span {
   color: #64695f
+}
+.wufoo li:hover .instruct {
+  top: -35px;
+  right: 0;
+  left: inherit
 }
 form.wufoo li.leftHalf,
 form.wufoo li.rightHalf {
