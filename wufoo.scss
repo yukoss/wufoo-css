@@ -1,6 +1,7 @@
 .wufoo {
   max-width: 750px;
   padding-left: 1px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
   letter-spacing: normal;
 
   #header.info {
@@ -146,10 +147,6 @@
       }
 
       &.rightHalf {
-        .desc {
-          //margin-left: 15px;
-        }
-
         input.text {
           float: right;
         }
