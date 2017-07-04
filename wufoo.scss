@@ -114,7 +114,7 @@
     }
   }
 
-  form#{&} {
+  @at-root form#{&} {
     li {
       &.leftHalf,
       &.rightHalf {

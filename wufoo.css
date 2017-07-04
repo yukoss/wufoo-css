@@ -90,26 +90,26 @@
 .wufoo li span {
   color: #64695f
 }
-.wufoo form.wufoo li.leftHalf,
-.wufoo form.wufoo li.rightHalf {
+form.wufoo li.leftHalf,
+form.wufoo li.rightHalf {
   width: 100%!important
 }
 @media (min-width:720px) {
-  .wufoo form.wufoo li.leftHalf,
-  .wufoo form.wufoo li.rightHalf {
+  form.wufoo li.leftHalf,
+  form.wufoo li.rightHalf {
     width: 47%!important
   }
 }
 @media (min-width:1200px) {
-  .wufoo form.wufoo li.leftHalf,
-  .wufoo form.wufoo li.rightHalf {
+  form.wufoo li.leftHalf,
+  form.wufoo li.rightHalf {
     width: 50%!important
   }
 }
-.wufoo form.wufoo li.rightHalf .desc {
+form.wufoo li.rightHalf .desc {
   margin-left: 15px
 }
-.wufoo form.wufoo li.rightHalf input.text {
+form.wufoo li.rightHalf input.text {
   float: right
 }
 .wufoo .submit {
