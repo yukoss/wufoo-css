@@ -45,7 +45,13 @@
   font-size: 16px
 }
 .wufoo fieldset legend.desc {
+  max-width: 270px;
   margin-bottom: 15px
+}
+@media (min-width:720px) {
+  .wufoo fieldset legend.desc {
+    max-width: 100%
+  }
 }
 .wufoo .field {
   font-size: 16px;
