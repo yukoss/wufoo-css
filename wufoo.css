@@ -12,8 +12,12 @@
   background: 0 0
 }
 .wufoo input.text {
-  width: 100%;
-  max-width: 360px
+  width: 100%
+}
+@media (min-width:720px) {
+  .wufoo input.text {
+    max-width: 360px
+  }
 }
 .wufoo textarea.textarea {
   resize: none
@@ -85,6 +89,7 @@
   color: #69645f
 }
 .wufoo li.twoColumns div span {
+  width: 100%;
   margin-right: 0
 }
 .wufoo li span {
@@ -105,9 +110,6 @@ form.wufoo li.rightHalf {
   form.wufoo li.rightHalf {
     width: 50%!important
   }
-}
-form.wufoo li.rightHalf .desc {
-  margin-left: 15px
 }
 form.wufoo li.rightHalf input.text {
   float: right

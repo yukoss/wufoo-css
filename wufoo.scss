@@ -15,7 +15,9 @@
 
   input.text {
     width: 100%;
-    max-width: 360px;
+    @media (min-width: 720px) {
+      max-width: 360px;
+    }
   }
 
   textarea.textarea {
@@ -104,6 +106,7 @@
     &.twoColumns {
       div {
         span {
+          width: 100%;
           margin-right: 0;
         }
       }
@@ -129,7 +132,7 @@
 
       &.rightHalf {
         .desc {
-          margin-left: 15px;
+          //margin-left: 15px;
         }
 
         input.text {
