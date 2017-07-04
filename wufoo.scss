@@ -43,6 +43,7 @@
     &.choice {
       margin: 5px 0;
       padding-bottom: 0;
+      font-size: 16px;
     }
   }
 
@@ -93,7 +94,8 @@
       background-color: transparent;
       
       div label,
-      label.desc {
+      label.desc,
+      legend.desc {
         color: #69645f;
       }
     }
@@ -168,9 +170,6 @@ input[type=checkbox] {
       border-radius: 2px;
       border: 2px solid #64695f;
       background-color: #fff;
-      font-family: FontAwesome, sans-serif;
-      font-size: 14px;
-      line-height: 1;
       color: #fff;
       text-align: center;
       @media (min-width: 768px) {
@@ -189,8 +188,7 @@ input[type=checkbox] {
         content: "";
         padding-top: 1px;
         border-color: #f60;
-        background-color: #f60;
-        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAfUlEQVQ4jeXQsQnCQBgF4HA72CQziJIFsoCoc9hlG0dyBV3AIhhstfkstDiOEy5aia/8ed87uKr6r2CG7lPc4OSZ/hsMV4S0FLDDPLnXCb5hk3tl/yqMaCN8LMEB56h4waoIRyMLDPK5Y1vyWbmRMvxmZBqORpY4YD0Z/14eHBvxRHakoFEAAAAASUVORK5CYII=');
+        background: #f60 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAfUlEQVQ4jeXQsQnCQBgF4HA72CQziJIFsoCoc9hlG0dyBV3AIhhstfkstDiOEy5aia/8ed87uKr6r2CG7lPc4OSZ/hsMV4S0FLDDPLnXCb5hk3tl/yqMaCN8LMEB56h4waoIRyMLDPK5Y1vyWbmRMvxmZBqORpY4YD0Z/14eHBvxRHakoFEAAAAASUVORK5CYII=') no-repeat;
         @media (min-width: 768px) {
           padding-top: 0;
         }
@@ -205,20 +203,4 @@ input[type=radio] {
       border-radius: 50%;
     }
   }
-
-  // &:checked {
-  //   + label {
-  //     &:before {
-  //       content: "";
-  //       padding-top: 1px;
-  //       border-color: #f60;
-  //       background-color: #f60;
-  //       background-repeat: no-repeat;
-  //       background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAAfUlEQVQ4jeXQsQnCQBgF4HA72CQziJIFsoCoc9hlG0dyBV3AIhhstfkstDiOEy5aia/8ed87uKr6r2CG7lPc4OSZ/hsMV4S0FLDDPLnXCb5hk3tl/yqMaCN8LMEB56h4waoIRyMLDPK5Y1vyWbmRMvxmZBqORpY4YD0Z/14eHBvxRHakoFEAAAAASUVORK5CYII=');
-  //       @media (min-width: 768px) {
-  //         padding-top: 0;
-  //       }
-  //     }
-  //   }
-  // }
 }
