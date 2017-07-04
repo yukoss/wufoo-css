@@ -87,6 +87,9 @@
 .wufoo li.twoColumns div span {
   margin-right: 0
 }
+.wufoo li span {
+  color: #64695f
+}
 .wufoo form.wufoo li.leftHalf,
 .wufoo form.wufoo li.rightHalf {
   width: 100%!important
@@ -183,4 +186,7 @@ input[type=radio]:checked + label:before {
 }
 input[type=radio] + label:before {
   border-radius: 50%
+}
+input[type=file]:focus {
+  box-shadow: none
 }
