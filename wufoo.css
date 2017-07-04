@@ -80,8 +80,12 @@
 }
 .wufoo li.focused div label,
 .wufoo li.focused label.desc,
-.wufoo li.focused legend.desc {
+.wufoo li.focused legend.desc,
+.wufoo li.focused span {
   color: #69645f
+}
+.wufoo li.twoColumns div span {
+  margin-right: 0
 }
 .wufoo form.wufoo li.leftHalf,
 .wufoo form.wufoo li.rightHalf {

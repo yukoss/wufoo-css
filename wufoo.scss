@@ -93,10 +93,19 @@
     &.focused {
       background-color: transparent;
       
+      span,
       div label,
       label.desc,
       legend.desc {
         color: #69645f;
+      }
+    }
+
+    &.twoColumns {
+      div {
+        span {
+          margin-right: 0;
+        }
       }
     }
   }
