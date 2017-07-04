@@ -34,6 +34,10 @@
 .wufoo legend.desc .req {
   color: #a94442!important
 }
+.wufoo label .choice,
+.wufoo legend .choice {
+  margin: 5px 0
+}
 .wufoo .field {
   font-size: 16px;
   line-height: 24px;
