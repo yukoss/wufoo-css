@@ -148,8 +148,8 @@
         @media (min-width: 698px) {
           width: 47% !important;
         }
-        @media (min-width: 720px) {
-          width: 47% !important;
+        @media (min-width: 848px) {
+          width: 50% !important;
         }
       }
 
@@ -159,8 +159,8 @@
         }
 
         label.desc {
-          @media (min-width: 698px) {
-            //margin-right: 15px;
+          @media (min-width: 848px) {
+            margin-right: 15px;
           }  
         }
       }
