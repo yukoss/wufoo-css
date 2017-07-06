@@ -21,6 +21,9 @@
     @media (min-width: 698px) {
       max-width: 360px;
     }
+    @media (min-width: 720px) {
+      width: 47%;
+    }
   }
 
   textarea.textarea {
@@ -142,7 +145,7 @@
       &.rightHalf {
         width: 100% !important;
         @media (min-width: 698px) {
-          width: 50% !important;
+          width: 47% !important;
         }
         @media (min-width: 720px) {
           width: 47% !important;
