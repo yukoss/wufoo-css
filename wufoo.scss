@@ -142,16 +142,22 @@
       &.rightHalf {
         width: 100% !important;
         @media (min-width: 698px) {
-          width: 47% !important;
+          width: 50% !important;
         }
         @media (min-width: 720px) {
-          width: 50% !important;
+          width: 47% !important;
         }
       }
 
       &.rightHalf {
         input.text {
           float: right;
+        }
+
+        label.desc {
+          @media (min-width: 698px) {
+            margin-right: 15px;
+          }  
         }
       }
     }
