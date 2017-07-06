@@ -19,10 +19,11 @@
   input.text {
     width: 100%;
     @media (min-width: 698px) {
+      width: 47%;
       max-width: 360px;
     }
-    @media (min-width: 720px) {
-      width: 47%;
+    @media (min-width: 848px) {
+      width: 50%;
     }
   }
 
@@ -159,7 +160,7 @@
 
         label.desc {
           @media (min-width: 698px) {
-            margin-right: 15px;
+            //margin-right: 15px;
           }  
         }
       }
