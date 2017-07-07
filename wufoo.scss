@@ -178,6 +178,8 @@
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 
     &:hover {
       background-color: #ff7f0b;
