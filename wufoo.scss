@@ -157,6 +157,30 @@
     }
   }
 
+  #errorLi {
+    width: 100%;
+    margin: 20px 0;
+    background: #fff !important;
+    border: 0;
+    border-radius: 0;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    b {
+      font-size: 18px;
+      line-height: 26px;
+      color: #a94442 !important;
+      background-color: transparent !important;
+    }
+
+    b {
+      padding: 0;
+    }
+  }
+
   @at-root form#{&} {
     li {
       &.leftHalf,
@@ -175,6 +199,7 @@
           float: right;
         }
 
+        .error,
         label.desc {
           @media (min-width: 848px) {
             margin-left: 15px;
