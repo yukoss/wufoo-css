@@ -135,17 +135,17 @@
     }
 
     &.error {
-      margin-bottom: 25px;
-      background-color: transparent;
+      margin-bottom: 25px !important;
+      background-color: transparent !important;
 
       .desc {
-        color: #69645f;
+        color: #69645f !important;
       }
     }
 
     .error {
       font-size: 14px;
-      color: #a94442;
+      color: #a94442 !important;
     }
 
     &:hover {
