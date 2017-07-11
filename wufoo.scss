@@ -134,6 +134,20 @@
       color: #64695f;
     }
 
+    &.error {
+      margin-bottom: 25px;
+      background-color: transparent;
+
+      .desc {
+        color: #69645f;
+      }
+    }
+
+    .error {
+      font-size: 14px;
+      color: #a94442;
+    }
+
     &:hover {
       .instruct {
         top: -35px;
