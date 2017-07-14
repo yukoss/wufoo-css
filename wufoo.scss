@@ -5,6 +5,10 @@
   padding-left: 1px;
   font-family: Lato, Arial, Helvetica, sans-serif;
   letter-spacing: normal;
+  @media (max-width: 697px) {
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
 
   #header.info {
     display: none;
